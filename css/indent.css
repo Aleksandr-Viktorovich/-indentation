@@ -1,0 +1,35 @@
+.indent__img {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.indent__list {
+  padding-bottom: 92px;
+}
+
+.indent__item {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  padding-bottom: 30px;
+}
+
+.indent__item:last-child {
+  padding-bottom: 0;
+}
+
+.indent__img-padding {
+  float: right;
+}
+
+.indent__item-padding {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  padding-bottom: 30px;
+}
+
+.indent__item-padding:last-child {
+  padding-bottom: 0;
+}

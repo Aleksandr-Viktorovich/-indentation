@@ -1,0 +1,17 @@
+.element__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  padding-bottom: 30px;
+}
+
+.element__img {
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 30px;
+}
+
+.element__img-block {
+  margin: 0 auto;
+  display: block;
+}

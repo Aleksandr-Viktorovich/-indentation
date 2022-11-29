@@ -1,0 +1,29 @@
+.title__text, .title__link {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.title__text-one {
+  margin-bottom: 50px;
+}
+
+.title__container {
+  background-color: #F1F1F1;
+  border-radius: 10px;
+  padding: 25px 45px;
+  margin-bottom: 50px;
+}
+
+.title__item {
+  padding-bottom: 10px;
+}
+
+.title__link {
+  color: #02535F;
+}
+
+.title__item:last-child {
+  padding-bottom: 0;
+}
