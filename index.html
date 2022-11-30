@@ -22,17 +22,17 @@
     <h2 class="title">Содержание:</h2>
     <ol class="title__list">
       <li class="title__item">
-        <a class="title__link" href="#">Отступ задается от предыдущего элемента к следующему</a>
+        <a class="title__link" href="#indent">Отступ задается от предыдущего элемента к следующему</a>
       </li>
       <li class="title__item">
-        <a class="title__link" href="#">Отступ задается последнему возможному элементу в DOM-дереве</a>
+        <a class="title__link" href="#dom">Отступ задается последнему возможному элементу в DOM-дереве</a>
       </li>
       <li class="title__item">
-        <a class="title__link" href="#">Для последнего элемента группы отступ обнуляется</a>
+        <a class="title__link" href="#element">Для последнего элемента группы отступ обнуляется</a>
       </li>
     </ol>
     </div>
-    <section class="indent">
+    <section class="indent" id="indent">
       <h3 class="title">Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</h3>
       <img class="indent__img" src="img/padding.jpg" alt="отступы">
       <ul class="indent__list">
@@ -49,7 +49,7 @@
       </ul>
     </section>
 
-    <section class="dom">
+    <section class="dom" id="dom">
       <h3 class="title">Отступ задается последнему возможному элементу в DOM-дереве</h3>
       <figure>
         <figcaption>Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите на этот список:</figcaption>
@@ -68,7 +68,7 @@
       <p class="dom__text dom__text-end">Это необходимо для более простого поиска отступов в будущем — для вас или того, кто будет верстать после вас. Кроме того, возможны серьёзные проблемы при динамическом дублировании или выводе вёрстки с нестандартной структурой отступов.</p>
     </section>
 
-    <section class="element">
+    <section class="element" id="element">
       <h3 class="title">Для последнего элемента группы отступ всегда обнуляется</h3>
       <p class="element__text">Для наглядности возьмём наш предыдущий пример с рецептами</p>
       <p class="element__text">Между рецептами расстояние одинаковое. Можно заметить, что и до следующего блока расстояние такое же.</p>
