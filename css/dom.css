@@ -8,9 +8,9 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .dom__text-end {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }

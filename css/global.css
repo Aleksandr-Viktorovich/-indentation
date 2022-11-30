@@ -88,7 +88,7 @@ figcaption {
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 
@@ -105,5 +105,5 @@ figcaption {
 }
 
 .title {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
